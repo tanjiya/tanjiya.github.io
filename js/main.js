@@ -64,7 +64,7 @@
     };
     // Burger Menu 
     var burgerMenu = function () {
-        $('.js-lonon-nav-toggle').on('click', function (event) {
+        $('.js-butterfly-nav-toggle').on('click', function (event) {
             event.preventDefault();
             var $this = $(this);
             if ($('body').hasClass('offcanvas')) {
@@ -80,18 +80,18 @@
     // Mobile Menu outside of offcanvass
     var mobileMenuOutsideClick = function () {
         $(document).on(function (e) {
-            var container = $("#lonon-aside, .js-lonon-nav-toggle");
+            var container = $("#butterfly-aside, .js-butterfly-nav-toggle");
             if (!container.is(e.target) && container.has(e.target).length === 0) {
                 if ($('body').hasClass('offcanvas')) {
                     $('body').removeClass('offcanvas');
-                    $('.js-lonon-nav-toggle').removeClass('active');
+                    $('.js-butterfly-nav-toggle').removeClass('active');
                 }
             }
         });
         $(window).scroll(function () {
             if ($('body').hasClass('offcanvas')) {
                 $('body').removeClass('offcanvas');
-                $('.js-lonon-nav-toggle').removeClass('active');
+                $('.js-butterfly-nav-toggle').removeClass('active');
             }
         });
     };
