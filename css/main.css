@@ -515,6 +515,19 @@ input[type="checkbox"] {
     font-size: 24px;
 }
 
+.btn-primary.focus, .btn-primary:focus{
+    box-shadow: 0 0 0 0.2rem rgb(47, 20, 63);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus{
+    box-shadow: 0 0 0 0.2rem rgb(45, 19, 61) !important;
+}
+
+.btn-primary {
+    background-color: #3c1d50 !important;
+    border-color: #745a83 !important;
+}
+
 #butterfly-hero .btn.btn-primary {
     padding: 15px 30px !important;
 }
