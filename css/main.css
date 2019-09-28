@@ -516,7 +516,7 @@ input[type="checkbox"] {
 }
 
 .btn-primary.focus, .btn-primary:focus{
-    box-shadow: 0 0 0 0.2rem rgb(47, 20, 63);
+    box-shadow: 0 0 0 0.2rem rgb(47, 20, 63) !important;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus{
