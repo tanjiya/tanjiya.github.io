@@ -1,26 +1,3 @@
-/* ----------------------------------------------------------------
-[Table of contents]
-01. Default styles
-02. Sidebar styles
-03. Content styles
-04. Section styles
-05. Heading styles
-06. Blog & Post styles
-07. Project styles
-08. Footer styles
-09. Contact styles
-10. Services styles
-11. Navigation styles
-12. Cardvisit styles
-13. Skills Progress Bar styles
-14. butterfly-timeline styles
-15. Pricing styles 
-16. Testiominals styles 
-------------------------------------------------------------------- */
-
-
-/*** 01. Default styles ***/
-
 html,
 body {
     -moz-osx-font-smoothing: grayscale;
@@ -41,6 +18,9 @@ body {
 
 /*** typography ***/
 
+/*material icon*/
+.material-icons { font-size: 14px !important; }
+.material-link { font-size: 18px !important; }
 
 /* headings */
 
